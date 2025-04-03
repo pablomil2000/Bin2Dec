@@ -26,7 +26,7 @@ La aplicación permite al usuario ingresar una cadena de hasta 8 dígitos binari
 1. Clona este repositorio:
 
    ```bash
-   git clone [URL_DEL_REPOSITORIO]
+   git clone https://github.com/pablomil2000/Bin2Dec.git
    ```
 
 
@@ -59,7 +59,7 @@ La aplicación permite al usuario ingresar una cadena de hasta 8 dígitos binari
 
 ## Capturas de Pantalla
 
-![Captura de pantalla de Bin2Dec](/images/mokup.png)
+![Captura de pantalla de Bin2Dec](public/images/mokup.png)
 
 ## Próximas Mejoras
 
