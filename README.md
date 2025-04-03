@@ -59,7 +59,7 @@ La aplicación permite al usuario ingresar una cadena de hasta 8 dígitos binari
 
 ## Capturas de Pantalla
 
-![Captura de pantalla de Bin2Dec](public/images/mokup.png)
+![Captura de pantalla de Bin2Dec](public/images/mokup.webp)
 
 ## Próximas Mejoras
 
