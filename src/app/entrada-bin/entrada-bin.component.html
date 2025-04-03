@@ -1,0 +1,14 @@
+<div class="space-y-4">
+  <div>
+    <label for="binario">Número Binario</label>
+    <input type="text" 
+           id="binario" 
+           [(ngModel)]="bin"
+           (input)="convertir()"
+           placeholder="Ingrese un número binario">
+  </div>
+
+  <div *ngIf="error" class="error-message">
+    <p>{{error}}</p>
+  </div>
+</div>

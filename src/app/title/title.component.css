@@ -1,0 +1,15 @@
+h1{
+    font-size: 3rem;
+    font-weight: bold;
+    color: #f0f0f0;
+
+    filter: drop-shadow(0 0 0.5rem rgba(255, 255, 255, 0.5));
+
+    transition: 0.5s;
+}
+
+h1:hover {
+    color: #07347B;
+    filter: drop-shadow(0 0 0.5rem rgba(59, 130, 246, 0.5));
+    transition: 0.5s;
+}

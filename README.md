@@ -1,59 +1,82 @@
 # Bin2Dec
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.5.
+**Nivel:** 1-Beginner
 
-## Development server
+Bin2Dec es una aplicación que permite a los usuarios convertir números binarios en su equivalente decimal. Esta herramienta es útil para comprender y practicar las conversiones entre sistemas numéricos binarios y decimales.
 
-To start a local development server, run:
+## Descripción
 
-```bash
-ng serve
-```
+La aplicación permite al usuario ingresar una cadena de hasta 8 dígitos binarios (compuestos por '0's y '1's) y muestra su equivalente en decimal. Si el usuario ingresa un valor no binario, se muestra una notificación de error.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## Características
 
-## Code scaffolding
+- Conversión de números binarios de hasta 8 dígitos a decimal.
+- Validación de entrada para asegurar que solo se ingresen dígitos binarios.
+- Interfaz de usuario intuitiva y responsiva desarrollada con Angular.
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## Tecnologías Utilizadas
 
-```bash
-ng generate component component-name
-```
+- Angular
+- TypeScript
+- HTML5
+- CSS3
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## Instalación y Uso
 
-```bash
-ng generate --help
-```
+1. Clona este repositorio:
 
-## Building
+   ```bash
+   git clone [URL_DEL_REPOSITORIO]
+   ```
 
-To build the project run:
+
 
-```bash
-ng build
-```
+2. Navega al directorio del proyecto:
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+   ```bash
+   cd bin2dec
+   ```
 
-## Running unit tests
+
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+3. Instala las dependencias:
 
-```bash
-ng test
-```
+   ```bash
+   npm install
+   ```
 
-## Running end-to-end tests
+
 
-For end-to-end (e2e) testing, run:
+4. Inicia la aplicación:
 
-```bash
-ng e2e
-```
+   ```bash
+   ng serve
+   ```
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+
 
-## Additional Resources
+5. Abre tu navegador y visita `http://localhost:4200/` para ver la aplicación en funcionamiento.
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## Capturas de Pantalla
+
+![Captura de pantalla de Bin2Dec](/images/mokup.png)
+
+## Próximas Mejoras
+
+- Implementar la conversión de decimal a binario.
+- Añadir soporte para números binarios de más de 8 dígitos.
+- Mejorar la accesibilidad de la interfaz de usuario.
+
+## Contribuciones
+
+Las contribuciones son bienvenidas. Por favor, sigue los siguientes pasos:
+
+1. Haz un fork del proyecto.
+2. Crea una nueva rama (`git checkout -b feature/nueva-caracteristica`).
+3. Realiza tus cambios y haz commit (`git commit -m 'Añadir nueva característica'`).
+4. Sube tus cambios a tu fork (`git push origin feature/nueva-caracteristica`).
+5. Abre un Pull Request en este repositorio.
+
+## Licencia
+
+Este proyecto está bajo la Licencia MIT.

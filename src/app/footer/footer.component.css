@@ -1,0 +1,24 @@
+.footer{
+    min-height: 20vh;
+    background: rgb(0,5,93);
+    background: linear-gradient(0deg, #08aba5 0%, #0e967d 39%, #08aba5 100%);
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: space-around;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: #000;
+    font-size: 1em;
+
+    transition: 0.25s;
+}
+a:hover{
+    font-size: 1.10em;
+    color: #000;
+    text-decoration: underline;
+    transition: 0.25s;
+}
